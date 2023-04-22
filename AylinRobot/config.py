@@ -13,7 +13,7 @@ class Config:
 
    API_ID = int(os.getenv("API_ID", "8953338"))
    API_HASH = os.getenv("API_HASH", "fe21f223cb02d8f7c1cbda651f553a45")
-   BOT_TOKEN = os.getenv("BOT_TOKEN", "1528782615:AAFtWtheWNjoNBEJnE-M_32xKbiIUpD46U0")
+   BOT_TOKEN = os.getenv("BOT_TOKEN", "1528782615:AAFmQxjWh9B3YLd1nFRulN3zlWy3rJqrG1E")
    BOT_USERNAME = os.environ.get("BOT_USERNAME", "FidanRobot")
    BOT_NAME = os.environ.get("BOT_NAME", "FidanRobot")
    OWNER_ID = int(os.environ.get("OWNER_ID","5731647757"))
