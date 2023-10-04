@@ -27,7 +27,7 @@ class Config:
    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "6e2ee8af-4c45-4a54-9f3a-cccf3b76fc95")
    ALIVE_NAME = os.environ.get("ALIVE_NAME", "AylinRobot")
    CHANNEL = os.environ.get("CHANNEL", "AylinRobot")
+   COMMAND_PREFIXES = list(os.environ.get("COMMAND_PREFIXES", "/ ! .").split())   
    SUPPORT = os.environ.get("SUPPORT", "FriendsAilesi")
    ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/33c593637f4766883abed.mp4") 
    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/f1caca00edcf2884d2436.jpg")
-   COMMAND_PREFIXES = list(os.environ.get("COMMAND_PREFIXES", "/ ! .").split())
