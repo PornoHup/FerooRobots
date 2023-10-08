@@ -25,7 +25,7 @@ class Config:
    PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1857095101"))
    BAN_GROUP = int(os.environ.get("BAN_GROUP", "-4054404146")
    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "05a017d5-e3e5-424d-941f-3e60645e3141")
-   ALIVE_NAME = os.environ.get("ALIVE_NAME", "HUSEYN")
+   ALIVE_NAME = os.environ.get("ALIVE_NAME", "Tiri_viri_isler")
    CHANNEL = os.environ.get("CHANNEL", "Tiri_viri_isler")
    SUPPORT = os.environ.get("SUPPORT", "Tiri_viri_isler")
    ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/a22a8d7d7ada51be1bf4d.jpg") 
