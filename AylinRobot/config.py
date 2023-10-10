@@ -27,7 +27,7 @@ class Config:
    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "05a017d5-e3e5-424d-941f-3e60645e3141")
    ALIVE_NAME = os.environ.get("ALIVE_NAME", "Tiri_viri_isler")
    CHANNEL = os.environ.get("CHANNEL", "Tiri_viri_isler")
-   SUPPORT = os.environ.get("SUPPORT", "Tiri_viri_isler")
+   SUPPORT = os.environ.get("SUPPORT", "Sohbet_otagi")
    ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/642139ca03a36ecb35709.jpg") 
    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/fe20477e7dbccf5b83a02.jpg")
    COMMAND_PREFIXES = list(os.environ.get("COMMAND_PREFIXES", "/ ! .").split())
