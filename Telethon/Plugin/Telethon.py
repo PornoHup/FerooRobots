@@ -585,4 +585,6 @@ Aylin = (
     "😖 Ged Yat",
     "🚷 Ban Olundun !\nSəbəb: Sahibimi tağ etdiyinçün \nŞaka ya korkma 😂",
     "Burda olmasada qəlbi sizinlədi ❤️",
+    "Ondan qalmadı Gülfidan vərək 🤣",
+    "Sahibimi niyə tağ edirsən soruşmaq ayıb olmasım 🤨",
 )
