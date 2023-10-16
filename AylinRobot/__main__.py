@@ -41,8 +41,7 @@ async def start(client, message):
         caption=Translation.GSTART_TEXT.format(message.from_user.mention, Config.BOT_USERNAME,  Config.BOT_NAME, message.chat.title),
         reply_markup=Button.GS_BUTTONS
     )    
-    
-    
+
 app.start()
 LOGGER.info(f"{Config.BOT_USERNAME} Uğurla Başladı Sahibim {Config.OWNER_NAME}")
 idle()
