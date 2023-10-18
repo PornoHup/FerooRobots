@@ -540,32 +540,28 @@ async def unpin(event):
         await event.reply(f"Sən {Config.BOT_NAME} Bota Sahib Deyilsən!\n⛔ UnPinləməyə Çalışma.")    
         
 
-
-
-
-
 @client.on(events.ChatAction)
 async def handler(event):
     if event.user_joined:
+        user = await event.get_user()
+        username = f"[{user.first_name}](tg://user?id={user.id})"
+        
+        userjoin = [
+            f"{username} Xoş Gəldoin",
+            f"{username}, Xoş Gəldin Gözəl İnsan", 
+            f"{username}, Sənin Gəlişin Məni Sevindirdi", 
+            f"{username}, Aramıza Xoş Gəldin",
+            f"{username}, Partimizə Xoş Gəldin",
+            f"{username}, Bayaqdan Səni Gözləyirəm",
+            f"{username}, Xoşgəldin, Pizza gətirəcəyivi düşnürdük.",
+            f"{username}, Xoşgəldin, Çıxacagsansa indidən çıx 😒."
+        ]
+
         await event.reply(random.choice(userjoin))
-
-
-@client.on(events.ChatAction)
-async def handler(event):
-    if event.user_left:
-        await event.reply("Əla Birdə gəlmə")
-
-userjoin = (
-
-    "Xoş Gəldoin",
-    "Xoş Gəldin Gözəl İnsan", 
-    "Sənin Gəlişin Məni Sevindirdi", 
-    "Aramıza Xoş Gəldin",
-    "Partimizə Xoş Gəldin",
-    "Bayaqdan Səni Gözləyirəm",
-    "Xoşgəldin, Pizza gətirəcəyivi düşnürdük.",
-    "Xoşgəldin, Çıxacagsansa indidən çıx 😒.",
-)
+    elif event.user_left:
+        user = await event.get_user()
+        username = f"[{user.first_name}](tg://user?id={user.id})"
+        await event.reply(f"{username} Əla Birdaha Gəlmə 🥱")
 
 
 
