@@ -6,7 +6,7 @@ from telethon.sessions import StringSession
 from telethon.tl.types import ChannelParticipantsAdmins
 from AylinRobot.config import Config
 from Telethon.Mesajlar import soz,  emoji, bayrag
-
+from Mesajlar.Mesaj import salam, necesen, sagol, getdim, geldim, ban, hardasan
 logging.basicConfig(
     level=logging.INFO,
     format='%(name)s - [%(levelname)s] - %(message)s'
@@ -588,3 +588,54 @@ Aylin = (
     "Ondan qalmadı Gülfidan vərək 🤣",
     "Sahibimi niyə tağ edirsən soruşmaq ayıb olmasım 🤨",
 )
+
+
+
+
+isleyen = []
+
+@client.on(events.NewMessage(pattern="^/chatbot ?(.*)"))
+async def chatbot(event):
+    global isleyen
+    emr = event.pattern_match.group(1)
+    qrup = event.chat_id
+    if emr == "ON" or emr == "on" or emr == "On":
+        if qrup not in isleyen:
+            isleyen.append(qrup)
+            aktiv_olundu = "✅ **ChatBot bu qrupda aktiv olundu !**"
+            await event.reply(aktiv_olundu)
+            return
+        await event.reply("⚠️ **ChatBot onsuzda aktivdir !**")
+        return
+    elif emr == "OFF" or emr == "off" or emr == "Off":
+        if qrup in isleyen:
+            isleyen.remove(qrup)
+            await event.reply("⛔️ **ChatBot bu qrupda deaktiv olundu !**")
+            return # aykhan026 | aykhan_s
+        await event.reply("⚠️ **ChatBot onsuzda deaktivdir !**")
+        return
+    
+    else:
+        await event.reply("On və yaxud Off yazmadınız")
+
+
+@client.on(events.NewMessage)
+async def test(event):
+    global isleyen
+    mesaj = str(event.raw_text)
+    qrup = event.chat_id
+    if qrup not in isleyen:
+        return
+    if "Salam" in mesaj or "Selam" in mesaj or "sa" in mesaj:
+        await event.reply(f"{random.choice(salam)}")
+    if "Necəsən" in mesaj or "Necesen" in mesaj or "Necəsiz" in mesaj:
+        await event.reply(f"{random.choice(necesen)}")
+    if "Gedirəm" in mesaj or "Getdim" in mesaj or "Gedəcəm" in mesaj:
+        await event.reply(f"{random.choice(getdim)}")
+    if "Gəldim" in mesaj or "Geldim" in mesaj or "Gəldimm" in mesaj:
+        await event.reply(f"{random.choice(geldim)}")
+    if "ban" in mesaj or "mute" in mesaj or "warn" in mesaj:
+        await event.reply(f"{random.choice(ban)}")
+    if "Hardasınız" in mesaj or "Hardasan" in mesaj or "Hardeidin" in mesaj:
+        await event.reply(f"{random.choice(hardasan)}")
+    
