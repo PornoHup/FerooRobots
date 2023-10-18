@@ -197,6 +197,12 @@ class Translation(object):
 ║
 ║▻ 🔮 Istifadə: /bio
 ║▻ 📃 Açıqlama: Hazır Bio Nuz Üçün Sözlər Atar.
+║
+║▻ 🔮 Istifadə: /chatbot on ya off
+║▻ 📃 Açıqlama: qrupunuzda chatbot başladar .
+║
+║▻ 🔮 Istifadə: /esq
+║▻ 📃 Açıqlama: Birinə Yanıt Verərək Sevgi Faizini Ölçən.
 ╚═════════════════
 """
 
