@@ -28,6 +28,6 @@ class Config:
    ALIVE_NAME = os.environ.get("ALIVE_NAME", "The_ferid")
    CHANNEL = os.environ.get("CHANNEL", "FerooResmi")
    SUPPORT = os.environ.get("SUPPORT", "sah_team")
-   ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/642139ca03a36ecb35709.jpg") 
+   ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/4ff7989d747fa4a5c185a.jpg") 
    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/938bf884f0072c2a612b9.jpg")
    COMMAND_PREFIXES = list(os.environ.get("COMMAND_PREFIXES", "/ ! .").split())
