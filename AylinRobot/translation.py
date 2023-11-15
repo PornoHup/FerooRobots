@@ -9,9 +9,9 @@ class Translation(object):
 
     START_TEXT = """
 ╔═════════════════
-║▻ **🙋‍♀️ Salam {}**
+║▻ **🙋🏻 Salam {}**
 ║
-║▻ 🙋‍♀️ Mənim Adım  ️️️️️️🙎‍♀️ [{}](https://t.me/{}) Mən 
+║▻ 🙋🏻 Mənim Adım  ️️️️️️🧑 [{}](https://t.me/{}) Mən 
 ║▻ 🇦🇿 Azərbaycan Dilində Çox Özəllikili 
 ║▻ 💌 Telegram Botuyam Bacarıqlarımı Görmək Üçün
 ║▻ `📚 Kömək` Buttonuna Toxun
@@ -21,9 +21,9 @@ class Translation(object):
 """    
     HELP_TEXT = """
 ╔═════════════════
-║▻ **🙋‍♀️ Salam {} 
+║▻ **🙋🏻 Salam {} 
 ║
-║▻ 💁‍♀️ ️️️️️️ [{}](https://t.me/{})- Un  
+║▻ 💁🏻 ️️️️️️ [{}](https://t.me/{})- Un  
 ║▻ 📚 Əmrləri  Bunlardır Aşağıdakı 
 ║▻ 🖲 Buttonlara Toxunaraq istədiyiniz
 ║▻ ✔️ Əmr Haqqında Məlumat Ala Bilərsiniz 
@@ -32,9 +32,9 @@ class Translation(object):
 
     GSTART_TEXT = """
 ╔═════════════════
-║▻ **🙋‍♀️ Salam {} 
+║▻ **🙋🏻 Salam {} 
 ║
-║▻ 💁‍♀️ ️️️️️️ [{}](https://t.me/{})
+║▻ 💁🏻 ️️️️️️ [{}](https://t.me/{})
 ║
 ║▻ ❤️‍🔥 {}  Qrupun Da Super İşləyir  🥳
 ╚═════════════════
@@ -46,9 +46,9 @@ class Translation(object):
 
     BH_TEXT = """
 ╔═════════════════
-║▻ **🙋‍♀️ Salam {} 
+║▻ **🙋🏻 Salam {} 
 ║
-║▻ 🙎‍♀️ [{}](https://t.me/{}) 🇦🇿 Azərbaycan Dilində Çox Özəllikli Telegram Botudur...**
+║▻ 🧑 [{}](https://t.me/{}) 🇦🇿 Azərbaycan Dilində Çox Özəllikli Telegram Botudur...**
 ║
 ║▻ ✨ Bot Versiyası: v0.7.0
 ║▻ 🍀 Pyrogram Versiyası: 1.4.16
