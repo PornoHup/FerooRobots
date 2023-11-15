@@ -23,7 +23,7 @@ class Config:
    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001995989751"))
    PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME", "ferooplaylist")
    PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1002091369970"))
-   BAN_GROUP = int(os.environ.get("BAN_GROUP", "feroobanned"))
+   BAN_GROUP = int(os.environ.get("BAN_GROUP", "-1002128310184"))
    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "05a017d5-e3e5-424d-941f-3e60645e3141")
    ALIVE_NAME = os.environ.get("ALIVE_NAME", "The_ferid")
    CHANNEL = os.environ.get("CHANNEL", "FerooResmi")
