@@ -20,7 +20,7 @@ class Config:
    OWNER_NAME = os.environ.get("OWNER_NAME", "The_ferid") 
    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://music:music@cluster0.sh6h4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "feroologin"))
+   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001995989751"))
    PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME", "ferooplaylist")
    PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1002091369970"))
    BAN_GROUP = int(os.environ.get("BAN_GROUP", "feroobanned"))
