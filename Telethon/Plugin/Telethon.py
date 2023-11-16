@@ -578,7 +578,7 @@ async def handler(event):
 Aylin = (
     "😒 Az tağ elə sahibimi",
     "🤭 Hmm Mənim Sahibimlə Nə İşin Var?",
-    "😖 Ged Yat",
+    "😖 Nədir Bax niyə tağ edirsən sahibimi",
     "🚷 Ban Olundun !\nSəbəb: Sahibimi tağ etdiyinçün \nŞaka ya korkma 😂",
     "Burda olmasada qəlbi sizinlədi ❤️",
     "Belə getsə şikayət edəcəm sizi sahibimə çünki çox tağ edirsiniz 🤣",
