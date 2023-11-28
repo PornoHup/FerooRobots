@@ -24,7 +24,7 @@ class Config:
    PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME", "GunayPlaylist")
    PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1001884377794"))
    BAN_GROUP = int(os.environ.get("BAN_GROUP", "-1002017033128"))
-   HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "05a017d5-e3e5-424d-941f-3e60645e3141")
+   HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "92d7b226-f553-455a-9ecc-794a5204b868")
    ALIVE_NAME = os.environ.get("ALIVE_NAME", "RelaxAndMee")
    CHANNEL = os.environ.get("CHANNEL", "ElikoResmi")
    SUPPORT = os.environ.get("SUPPORT", "OliqarxTeam")
