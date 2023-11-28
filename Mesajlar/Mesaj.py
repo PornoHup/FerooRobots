@@ -13,7 +13,7 @@ necesen = (
 "Həkimsən ?",
 "Ə belədana😂",
 "Sənə nə",
-"yaxşı olasan üreyim❤️
+"yaxşı olasan üreyim❤️",
 "İyyim aşkım sen ?",
 "yaxşı olmağa çalışıram",
 "Mən başımı buraxe sən necəsən😂",
