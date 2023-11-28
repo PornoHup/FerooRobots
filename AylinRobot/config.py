@@ -13,7 +13,7 @@ class Config:
 
    API_ID = int(os.getenv("API_ID", "14965050"))
    API_HASH = os.getenv("API_HASH", "38bab2dab10fc1b6a9ba0bf683fd7048")
-   BOT_TOKEN = os.getenv("BOT_TOKEN", "6471267140:AAGCzsUbDwtfY9CXEn9RYhVHvP7G6N9UqVg")
+   BOT_TOKEN = os.getenv("BOT_TOKEN", "")
    BOT_USERNAME = os.environ.get("BOT_USERNAME", "GunayRoBot")
    BOT_NAME = os.environ.get("BOT_NAME", "Gunay🤍")   
    OWNER_ID = int(os.environ.get("OWNER_ID","6513170849"))
@@ -28,6 +28,6 @@ class Config:
    ALIVE_NAME = os.environ.get("ALIVE_NAME", "RelaxAndMee")
    CHANNEL = os.environ.get("CHANNEL", "ElikoResmi")
    SUPPORT = os.environ.get("SUPPORT", "OliqarxTeam")
-   ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/bab70b2d3cfab034b0590.jpg") 
-   START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/bab70b2d3cfab034b0590.jpg")
+   ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/6255963488c7bd84f3ace.jpg") 
+   START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/6255963488c7bd84f3ace.jpg")
    COMMAND_PREFIXES = list(os.environ.get("COMMAND_PREFIXES", "/ ! .").split())
