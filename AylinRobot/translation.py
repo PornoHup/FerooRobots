@@ -11,7 +11,7 @@ class Translation(object):
 ╔═════════════════
 ║▻ **🙋🏻 Salam {}**
 ║
-║▻ 🙋🏻 Mənim Adım  ️️️️️️🫅🏻 [{}](https://t.me/{}) Mən 
+║▻ 🙋🏻 Mənim Adım  ️️️️️️👸 [{}](https://t.me/{}) Mən 
 ║▻ 🇦🇿 Azərbaycan Dilində Çox Özəllikili 
 ║▻ 💌 Telegram Botuyam Bacarıqlarımı Görmək Üçün
 ║▻ `📚 Kömək` Buttonuna Toxun
