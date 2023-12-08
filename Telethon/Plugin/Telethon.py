@@ -547,21 +547,21 @@ async def handler(event):
         username = f"[{user.first_name}](tg://user?id={user.id})"
         
         userjoin = [
-            f"{username} Xoş Gəldoin",
-            f"{username}, Xoş Gəldin Gözəl İnsan", 
-            f"{username}, Sənin Gəlişin Məni Sevindirdi", 
-            f"{username}, Aramıza Xoş Gəldin",
-            f"{username}, Qrupumuza Xoş Gəldin",
-            f"{username}, Bayaqdan Səni Gözləyirəm",
-            f"{username}, Xoşgəldin, bizdə elə səni düşnürdük.",
-            f"{username}, Xoşgəldin, Çıxacagsansa indidən çıx 😒."
+            f"{username} Xoş Gəldin❤️",
+            f"{username}, Xoş Gəldin Gözəl İnsan🤭", 
+            f"{username}, Sənin Gəlişin Məni Sevindirdi😊", 
+            f"{username}, Aramıza Xoş Gəldin🤗",
+            f"{username}, Xoş Gəldin Lahmacun Gətirəcəyivi Düşürdük🤠",
+            f"{username}, Bayaqdan Səni Gözləyirəm😇",
+            f"{username}, Xoşgəldin, bizdə elə səni düşnürdük😁",
+            f"{username}, Xoşgəldin, Çıxacagsansa indidən çıx😒."
         ]
 
         await event.reply(random.choice(userjoin))
     elif event.user_left:
         user = await event.get_user()
         username = f"[{user.first_name}](tg://user?id={user.id})"
-        await event.reply(f"{username} Əla Birdaha Üz vurma Bura 🥱")
+        await event.reply(f"{username} Əla Birdaha Üz vurma Bura")
 
 
 
@@ -583,6 +583,8 @@ Aylin = (
     "Burda olmasada qəlbi sizinlədi❤️",
     "Belə getsə şikayət edəcəm sizi sahibimə çünki çox tağ edirsiniz😅",
     "Sahibimi niyə tağ edirsən soruşmaq ayıb olmasım🤨",
+    "Sahibim burda deyil mənə deyə bilərsən👀"
+    "Gələndə mən sizi tağ edəcəm."
 )
 
 
