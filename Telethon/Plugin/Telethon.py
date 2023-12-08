@@ -584,7 +584,6 @@ Aylin = (
     "Belə getsə şikayət edəcəm sizi sahibimə çünki çox tağ edirsiniz😅",
     "Sahibimi niyə tağ edirsən soruşmaq ayıb olmasım🤨",
     "Sahibim burda deyil mənə deyə bilərsən👀"
-    "Gələndə mən sizi tağ edəcəm."
 )
 
 
