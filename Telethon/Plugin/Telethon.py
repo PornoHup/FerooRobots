@@ -561,7 +561,7 @@ async def handler(event):
     elif event.user_left:
         user = await event.get_user()
         username = f"[{user.first_name}](tg://user?id={user.id})"
-        await event.reply(f"{username} Əla Birdaha Üz vurma Bura")
+        await event.reply(f"{username} Əla Birdaha Gəlmə😏")
 
 
 
