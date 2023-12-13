@@ -13,7 +13,7 @@ class Config:
 
    API_ID = int(os.getenv("API_ID", "26090016"))
    API_HASH = os.getenv("API_HASH", "5b842f9801712684f2b98d70ead6538d")
-   BOT_TOKEN = os.getenv("BOT_TOKEN", "6783604444:AAE1-obROK_BXgNUKvGWUiWI1GwFndIrnlA")
+   BOT_TOKEN = os.getenv("BOT_TOKEN", "6901117215:AAF_X4pnZzcf-UPZUAsBfZ6yTgXFGTmJEbo")
    BOT_USERNAME = os.environ.get("BOT_USERNAME", "FerooRobot")
    BOT_NAME = os.environ.get("BOT_NAME", "FerooRobot")   
    OWNER_ID = int(os.environ.get("OWNER_ID","6297494131"))
