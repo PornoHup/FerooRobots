@@ -14,8 +14,8 @@ class Translation(object):
 **🙋🏻‍♀️ Mənim Adım  ️️️️️️👸🏻 [{}](https://t.me/{}) Mən 
  🇦🇿 Azərbaycan Dilində Çox Özəllikili 
  💌 Telegram Botuyam Bacarıqlarımı Görmək Üçün
- **📚 Əmrlər Buttonuna Toxun
-╰────── ⊱ꕥ⊰ ──────╯**
+ **📚Əmrlər Buttonuna Toxun**
+**╰────── ⊱ꕥ⊰ ──────╯**
 ➻**Sahibim : @The_ferid**
 ◆━━━━━━▣✦▣━━━━━━━◆
 
