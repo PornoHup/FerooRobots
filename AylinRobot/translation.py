@@ -8,35 +8,37 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-╔═════════════════
-║▻ **🙋🏻 Salam {}**
-║
-║▻ 🙋🏻 Mənim Adım  ️️️️️️👸 [{}](https://t.me/{}) Mən 
-║▻ 🇦🇿 Azərbaycan Dilində Çox Özəllikili 
-║▻ 💌 Telegram Botuyam Bacarıqlarımı Görmək Üçün
-║▻ `📚 Kömək` Buttonuna Toxun
-╚═════════════════
+╭────── ⊱ꕥ⊰ ──────╮
+➻ **🙋🏻‍♀️ Salam {}**
+
+➻**🙋🏻‍♀️ Mənim Adım  ️️️️️️👸🏻 [{}](https://t.me/{}) Mən 
+➻ 🇦🇿 Azərbaycan Dilində Çox Özəllikili 
+➻ 💌 Telegram Botuyam Bacarıqlarımı Görmək Üçün
+➻ `📚 Əmrlər` Buttonuna Toxun**
+╰────── ⊱ꕥ⊰ ──────╯
+➻**Sahibim : @The_ferid**
+◆━━━━━━▣✦▣━━━━━━━◆
 
 """    
     HELP_TEXT = """
-╔═════════════════
-║▻ **🙋🏻 Salam {} 
-║
-║▻ 💁🏻 ️️️️️️ [{}](https://t.me/{})- Un  
-║▻ 📚 Əmrləri  Bunlardır Aşağıdakı 
-║▻ 🖲 Buttonlara Toxunaraq istədiyiniz
-║▻ ✔️ Əmr Haqqında Məlumat Ala Bilərsiniz 
-╚═════════════════
+╭────── ⊱ꕥ⊰ ──────╮
+➻ **🙋🏻‍♀️ Salam {}** 
+
+➻ **💁🏻‍♀️ ️️️️️️ [{}](https://t.me/{})- Un  
+➻ 📚 Əmrləri  Bunlardır Aşağıdakı 
+➻  Buttonlara Toxunaraq istədiyiniz
+➻ ✔️ Əmr Haqqında Məlumat Ala Bilərsiniz** 
+╰────── ⊱ꕥ⊰ ──────╯
 """
 
     GSTART_TEXT = """
-╔═════════════════
-║▻ **🙋🏻 Salam {} 
-║
-║▻ 💁🏻 ️️️️️️ [{}](https://t.me/{})
-║
-║▻ ❤️‍🔥 {}  Qrupun Da Super İşləyir  🥳
-╚═════════════════
+╭────── ⊱ꕥ⊰ ──────╮
+➻ **🙋🏻‍♀️ Salam {}**
+
+➻ **💁🏻‍♀️ ️️️️️️ [{}](https://t.me/{})
+
+➻ ❤️‍🔥 {}  Qrupun Da Super İşləyirəm 🥳**
+╰────── ⊱ꕥ⊰ ──────╯
 """
 
 
@@ -44,21 +46,21 @@ class Translation(object):
 ### Bot Haqqında Ümumi Məlumat
 
     BH_TEXT = """
+
+➻ **🙋🏻‍♀️ Salam {}**
+
+➻ **👸🏻 [{}](https://t.me/{}) 🇦🇿 Azərbaycan Dilində Çox Özəllikli Telegram Botudur...**
+
+➻ ✨ Bot Versiyası: v0.7.0
+➻ 🍀 Pyrogram Versiyası: 1.4.16
+➻ ✨ Python Versiyası: 3.11.1
+➻ ⚙️ Server [Heroku](https://heroku.com)
+➻ 📆 Botun İstifadəyə Verilmə Tarixi `20.11.2022` 
+
 ╔═════════════════
-║▻ **🙋🏻 Salam {} 
-║
-║▻ 🫅🏻 [{}](https://t.me/{}) 🇦🇿 Azərbaycan Dilində Çox Özəllikli Telegram Botudur...**
-║
-║▻ ✨ Bot Versiyası: v0.7.0
-║▻ 🍀 Pyrogram Versiyası: 1.4.16
-║▻ ✨ Python Versiyası: 3.11.1
-║▻ ⚙️ Server [Heroku](https://heroku.com)
-║▻ 📆 Botun İstifadəyə Verilmə Tarixi `20.11.2022` 
-╚═════════════════
-╔═════════════════
-║▻ **⚠️ Qeyd Botun Qrupunuzda İşləməsi 
-║▻ Üçün Admin Əmirlərindən Sadəcə 
-║▻ 💬 Mesajları Silmə 🚫 Yetkisi Verin**
+║ **⚠️ Qeyd Botun Qrupunuzda İşləməsi 
+║➻ Üçün Admin Əmirlərindən Sadəcə 
+║➻ 💬 Mesajları Silmə 🚫 Yetkisi Verin**
 ╚═════════════════
 """
 
@@ -266,9 +268,9 @@ class LAN(object):
 
 
     BILDIRIM = """
-```📣 Yeni İsmarıc``` \n\n#YENI_ISTIFADƏÇİ **botu başlatdı!** \n\n🏷 isim: `{}` \n📮 istifadəçi id: `{}` \n🧝🏻‍♂️ profil linki: [{}](tg://user?id={})"""
+```📣 Yeni İstifadəçi``` \n\n#YENI_ISTIFADƏÇİ **botu başlatdı!** \n\n🏷 isim: `{}` \n📮 istifadəçi id: `{}` \n🧝🏻‍♂️ profil linki: [{}](tg://user?id={})"""
     GRUP_BILDIRIM = """
-```📣 Yeni İsmarıc``` \n\n#YENI_QRUP **botu başlatdı!** \n\n🏷 Qrupa əlavə edən: `{}` \n📮 Qrupa əlavə edən istifadəçi id: `{}` \n🧝🏻‍♂️ profil linki: [{}](tg://user?id={})\n Qrupun adı: {}\n Qrupun ID: {}\n Qrupun mesaj kinki( sadəcə açıq qruplar): [Buraya Toxun](https://t.me/c/{}/{})
+```📣 Yeni İstifadəçi``` \n\n#YENI_QRUP **botu başlatdı!** \n\n🏷 Qrupa əlavə edən: `{}` \n📮 Qrupa əlavə edən istifadəçi id: `{}` \n🧝🏻‍♂️ profil linki: [{}](tg://user?id={})\n Qrupun adı: {}\n Qrupun ID: {}\n Qrupun mesaj kinki( sadəcə açıq qruplar): [Buraya Toxun](https://t.me/c/{}/{})
 
 """
     SAHIBIME = """
