@@ -16,7 +16,7 @@ class Translation(object):
  💌 Telegram Botuyam Bacarıqlarımı Görmək Üçün
  **📚Əmrlər Buttonuna Toxun**
 **╰────── ⊱ꕥ⊰ ──────╯**
-➻**Sahibim : @The_ferid**
+**Sahibim : @The_ferid**
 ◆━━━━━━▣✦▣━━━━━━━◆
 
 """    
