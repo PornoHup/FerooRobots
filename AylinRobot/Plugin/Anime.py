@@ -19,6 +19,6 @@ async def anime(bot: app, m: Message):
     replymsg = await m.reply_text("**❤ Rondom Bir Anime Şəkili Seçilir...**")
     end = round(time() - start, 2)
     photo = random.choice(photolist)
-    text = f"❤️ **{Config.BOT_USERNAME} Sizin Üçün Rondom Bir Anime Şəkili Seçdi**"
+    text = f"❤️ **{Config.BOT_USERNAME} Sizin Üçün Random Bir Anime Şəkili Seçdi**"
     await bot.send_photo(m.chat.id, photo=photo, caption=text)
     await replymsg.delete()
