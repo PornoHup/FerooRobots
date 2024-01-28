@@ -1,4 +1,4 @@
-pyrogram==1.4.16
+pyrogram==2.0.0
 py-tgcalls
 git+https://github.com/yt-dlp/yt-dlp@master
 tglogging
