@@ -567,9 +567,9 @@ async def handler(event):
 
 
 @client.on(events.NewMessage(pattern=f'@{Config.OWNER_NAME}'))
-@client.on(events.NewMessage(pattern='Huseyn'))
-@client.on(events.NewMessage(pattern='@Hesenov_H'))
-@client.on(events.NewMessage(pattern='Husi'))
+@client.on(events.NewMessage(pattern='Feroo'))
+@client.on(events.NewMessage(pattern='@The_ferid'))
+@client.on(events.NewMessage(pattern='Fərid'))
 async def handler(event):
     await event.reply(random.choice(Aylin))
 
