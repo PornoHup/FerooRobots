@@ -9,12 +9,9 @@ class Translation(object):
 
     START_TEXT = """
  **🙋🏻‍♀️ Salam {}**
-**🙋🏻‍♀️ Mənim Adım  ️️️️️️👸🏻 [{}](https://t.me/{}) 
- Mən  Azərbaycan Dilində 
- Çox Funksiyalı Telegram
- Botuyam 👸🏻 Bacarıqlarıml
- Görmək üçün Əmrlər 💌
- Bölməsinə Daxil olun.**
+**👀 Mənim Adım [{}](https://t.me/{}) 
+🇦🇿 Azərbaycan dilində çox funksiyalı telegram botuyam.
+💁🏻‍♀️ Bacarıqlarımı görmək üçün Bot Əmrlərinə daxil olun.**
  
 **sᴀʜiʙiᴍ : @The_ferid**
 
