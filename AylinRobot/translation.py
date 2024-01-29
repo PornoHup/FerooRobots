@@ -9,11 +9,11 @@ class Translation(object):
 
     START_TEXT = """
  **🙋🏻‍♀️ Salam {}**
-**👀 Mənim Adım [{}](https://t.me/{}) 
-🇦🇿 Azərbaycan dilində çox funksiyalı telegram botuyam.
-💁🏻‍♀️ Bacarıqlarımı görmək üçün Bot Əmrlərinə daxil olun.**
+**👀 Mənim Adım [{}](https://t.me/{})   
+🇦🇿 Azərbaycan dilində çox funksiyalı telegram botuyam.  
+💁🏻‍♀️ Bacarıqlarımı görmək üçün Bot Əmrlərinə daxil olun.**  
  
-**sᴀʜiʙiᴍ : @The_ferid**
+**sᴀʜiʙiᴍ : @The_ferid**   
 
 """    
     HELP_TEXT = """
