@@ -5,10 +5,10 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 START_BUTTONS = InlineKeyboardMarkup(
 [[InlineKeyboardButton('👾 Rəsmi Kanal', url=f"https://t.me/{Config.CHANNEL}"),
-InlineKeyboardButton("💬 Dəstək", url=f"https://t.me/{Config.SUPPORT}"),
+InlineKeyboardButton("💬 Dəstək Qrupu", url=f"https://t.me/{Config.SUPPORT}"),
 ],[
-InlineKeyboardButton('ℹ️ Haqqında', callback_data='bh'),  
-InlineKeyboardButton('📚 Əmrlər', callback_data='help'),
+InlineKeyboardButton('ℹ️ Bot Haqqında', callback_data='bh'),  
+InlineKeyboardButton('📚  Bot Əmrlər', callback_data='help'),
 ],[        
 InlineKeyboardButton('➕ ǫʀᴜᴘᴀ əʟᴀᴠə ᴇᴛ ➕', url=f"https://t.me/{Config.BOT_USERNAME}?startgroup=true"),
 ],[                
