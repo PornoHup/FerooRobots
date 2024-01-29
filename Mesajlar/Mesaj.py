@@ -31,7 +31,7 @@ sagol = (
 "Sağol uğurlar",
 )
 
-gunay = (
+fero = (
 "Haycan",
 "He üreyim",
 "Ne lazımdır",
