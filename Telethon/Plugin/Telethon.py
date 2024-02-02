@@ -568,7 +568,7 @@ async def handler(event):
 
 @client.on(events.NewMessage(pattern=f'@{Config.OWNER_NAME}'))
 @client.on(events.NewMessage(pattern='Feroo'))
-@client.on(events.NewMessage(pattern='@The_ferid'))
+@client.on(events.NewMessage(pattern='Ferid'))
 @client.on(events.NewMessage(pattern='Fərid'))
 async def handler(event):
     await event.reply(random.choice(Aylin))
@@ -635,4 +635,21 @@ async def test(event):
         await event.reply(f"{random.choice(ban)}")
     if "Hardasınız" in mesaj or "Hardasan" in mesaj or "Hardeidin" in mesaj:
         await event.reply(f"{random.choice(hardasan)}")
+
+
+@client.on(events.NewMessage(pattern="^/delete ?(.*)"))
+async def banda(event):
+    if not event.is_group:
+        return await event.reply("ℹ️ Bu əmr qruplar üçün nəzərdə tutulub")
+    info = await event.client.get_entity(event.chat_id)
+    title = info.title if info.title else "This chat"
+    mentions = f'{title} qrupunda olan silinən hesablar:\n'
+    deleted = 0
+    async for user in event.client.iter_participants(event.chat_id):
+        if user.deleted:
+            mentions += f"\n🗑️ Çıxarıldı: {user.id}"
+            deleted += 1
+            await event.client.kick_participant(event.chat_id, user.id)
+    mentions += f"\n\n👤 Silinən hesabların sayı: {deleted}"
+    await event.reply(mentions)
     
