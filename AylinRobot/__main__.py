@@ -25,7 +25,7 @@ from AylinRobot import LOGGER
 
 AylinIMG = f"{Config.START_IMG}"
 
-@app.on_message(filters.private & filters.incoming & filters.command(['start']))
+@app.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     await message.reply_photo(
         AylinIMG,
@@ -33,8 +33,7 @@ async def start(client, message):
         reply_markup=Button.START_BUTTONS
     )
     
-    
-@app.on_message(filters.group & filters.incoming & filters.command(['start']))
+@app.on_message(filters.group & filters.command(['start']))
 async def start(client, message):
     await message.reply_photo(
         AylinIMG,
