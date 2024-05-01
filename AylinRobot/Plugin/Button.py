@@ -14,6 +14,7 @@ InlineKeyboardButton('➕ Beni Gruba Ekle ➕', url=f"https://t.me/{Config.BOT_U
 ],[                
 InlineKeyboardButton('👨‍💻 Sahib',  url=f"https://t.me/{Config.OWNER_NAME}"),
 ]]
+  
 #### KÖMƏK BUTTONU
 
 HELP_BUTTONS = InlineKeyboardMarkup(
