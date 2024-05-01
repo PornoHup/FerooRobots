@@ -14,7 +14,7 @@ from AylinRobot.config import Config
 async def telegraph(client, message):
     replied = message.reply_to_message
     if not replied:
-        await message.reply("🤕 Dəstəklənən media faylına cavab verin")
+        await message.reply("🤕 Desteklenen bir medya dosyasını yanıtlayn")
         await message.delete()         
         return
     if not (
@@ -33,7 +33,7 @@ async def telegraph(client, message):
             and replied.document.file_size <= 5242880
         )
     ):
-        await message.reply("😔 Dəstəklənmir!!")
+        await message.reply("😔 Desteklenmiyor!!")
         return
     download_location = await client.download_media(
         message=message.reply_to_message,
@@ -44,7 +44,7 @@ async def telegraph(client, message):
     except Exception as document:
         await message.reply(message, text=document)
     else:
-        await message.reply(f"**🌐 Budur Sizin Telegraph Linginiz**:\n\n`https://telegra.ph{response[0]}`\n\nGöndərdi 🙎🏻 [{Config.BOT_NAME}](https://t.me/{Config.BOT_USERNAME})**", disable_web_page_preview=False)
+        await message.reply(f"**🌐 Budur Sizin Telegram Linkiniz**:\n\n`https://telegra.ph{response[0]}`\n\nGönderdi 🙎🏻 [{Config.BOT_NAME}](https://t.me/{Config.BOT_USERNAME})**", disable_web_page_preview=False)
     finally:
         os.remove(download_location)
     
