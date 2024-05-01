@@ -33,14 +33,14 @@ async def search(_, message: Message):
             await message.reply_text("/search **Ah Canım Sevgilim!**")
             return
         query = message.text.split(None, 1)[1]
-        m = await message.reply_text("🔎 **Axtarılır...**")
+        m = await message.reply_text("🔎 **Aranıyor...**")
         results = YoutubeSearch(query, max_results=5).to_dict()
         i = 0
         text = ""
         while i < 5:
             text += f"🏷 **Ad:** __{results[i]['title']}__\n"
-            text += f"⏱ **Dəqiqə:** `{results[i]['duration']}`\n"
-            text += f"👀 **Baxış:** `{results[i]['views']}`\n"
+            text += f"⏱ **Dakika:** `{results[i]['duration']}`\n"
+            text += f"👀 **Görüntüleme:** `{results[i]['views']}`\n"
             text += f"📣 **Youtube Kanalı:** {results[i]['channel']}\n"
             text += f"🔗: https://www.youtube.com{results[i]['url_suffix']}\n\n"
             i += 1
