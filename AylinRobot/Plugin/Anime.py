@@ -16,9 +16,9 @@ photolist = ["https://telegra.ph/file/ebe8512750e0006a19d13.jpg","https://telegr
 @app.on_message(filters.command("anime"))
 async def anime(bot: app, m: Message):
     start = time()
-    replymsg = await m.reply_text("**❤ Rondom Bir Anime Şəkili Seçilir...**")
+    replymsg = await m.reply_text("**❤ Random Bir Anime Fotoğrafı Seçiliyor...**")
     end = round(time() - start, 2)
     photo = random.choice(photolist)
-    text = f"❤️ **{Config.BOT_USERNAME} Sizin Üçün Random Bir Anime Şəkili Seçdi**"
+    text = f"❤️ **{Config.BOT_USERNAME} Sizin için Random Bir Anime Fotoğrafı Seçdi**"
     await bot.send_photo(m.chat.id, photo=photo, caption=text)
     await replymsg.delete()
