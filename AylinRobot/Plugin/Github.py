@@ -11,7 +11,7 @@ from pyrogram import Client, filters
 @app.on_message(filters.command("github"))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/github İstifadəçi adı yazmadınız 😐")
+        await message.reply_text("/github Kullanıcı adı yazmalısınız 😐")
         return
     username = message.text.split(None, 1)[1]
     URL = f'https://api.github.com/users/{username}'
@@ -33,16 +33,16 @@ async def github(_, message):
                 followers = result['followers']
                 following = result['following']
                 caption = f"""**Info Of {name}**
-👨🏻‍💻İstifadəçi adı: {username}
+👨🏻‍💻Kullanıcı adı: {username}
 🗣️Bio: {bio}
 🔗Profil linki: [Here]({url})
-👤Şirkət: {company}
-📅Yaradılma tarixi: {created_at}
+👤Şirket: {company}
+📅Kullanıma verilen tarih: {created_at}
 📔Depolar: {repositories}
 🛄Blog: {blog}
-🌐Məkan: {location}
-👁️‍🗨️İzləyicilər: {followers}
-👁️‍🗨️İzlədikləri: `{following}`"""
+🌐Mekan: {location}
+👁️‍🗨️İzleyiciler: {followers}
+👁️‍🗨️İzledikleri: `{following}`"""
             except Exception as e:
                 print(str(e))
                 pass
