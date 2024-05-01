@@ -4,8 +4,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 ### START BUTTONU 
 
 START_BUTTONS = InlineKeyboardMarkup(
-[[InlineKeyboardButton('👾 Resmi Kanal', url=f"https://t.me/{Config.CHANNEL}"
-InlineKeyboardButton("💬 Destek Grubu", url=f"https://t.me/{Config.SUPPORT}"
+[[InlineKeyboardButton('👾 Resmi Kanal', url=f"https://t.me/{Config.CHANNEL}")
+InlineKeyboardButton("💬 Destek Grubu", url=f"https://t.me/{Config.SUPPORT}")
 ],[
 InlineKeyboardButton('ℹ️ Bot Hakkında', callback_data='bh'),  
 InlineKeyboardButton('📚  Yardım', callback_data='help'),
@@ -13,7 +13,7 @@ InlineKeyboardButton('📚  Yardım', callback_data='help'),
 InlineKeyboardButton('➕ Beni Gruba Ekle ➕', url=f"https://t.me/{Config.BOT_USERNAME}?startgroup=true"),
 ],[                
 InlineKeyboardButton('👨‍💻 Sahib',  url=f"https://t.me/{Config.OWNER_NAME}"),
-]
+]]
 #### KÖMƏK BUTTONU
 
 HELP_BUTTONS = InlineKeyboardMarkup(
