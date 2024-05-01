@@ -13,7 +13,7 @@ from AylinRobot.config import Config
 
 @app.on_message(filters.command("info"))
 async def info(client, message):
-    """ istifadəçi məlumatını çıxarın """
+    """ kullanıcı verilerini çıkar """
     status_message = await message.reply_text(
         "🔎"
     )
@@ -25,7 +25,7 @@ async def info(client, message):
         await status_message.edit(str(error))
         return
     if from_user is None:
-        await status_message.edit("Etibarlı İstifadəçi_ID / göstərilməyib 🙄")
+        await status_message.edit("Geçerli Kullanıcı_ID'si / belirtilmemiş 🙄")
         return
     
     first_name = from_user.first_name or ""
@@ -33,16 +33,16 @@ async def info(client, message):
     username = from_user.username or ""
     
     message_out_str = (
-        "<b>Telegram verilənlər bazasından</b>\n\n"
+        "<b>Telegram veritabanından</b>\n\n"
         f"<b>• Ad : <a href='tg://user?id={from_user.id}'>{first_name}</a></b>\n"
         f"<b>• ID :</b> <code>{from_user.id}</code>\n"
-        f"<b>• İstifadəçi Adı :</b> @{username}\n"
+        f"<b>• Kullanıcı Adı :</b> @{username}\n"
         f"<b>• Link :</b> {from_user.mention}\n" if from_user.username else ""
         f"<b>Silindi:</b>Doğrudur\n" if from_user.is_deleted else ""
-        f"<b>Doğrulanıb:</b>Doğrudur" if from_user.is_verified else ""
-        f"<b>Fırıldaqdır:</b>Doğrudur" if from_user.is_scam else ""
+        f"<b>Doğrulandı:</b>Doğrudur" if from_user.is_verified else ""
+        f"<b>sahtekardır:</b>Doğrudur" if from_user.is_scam else ""
         # f"<b>Is Fake:</b> True" if from_user.is_fake else ""
-        f"<b>Son görünmə:</b> <code>{last_online(from_user)}</code>\n\n"
+        f"<b>Son görünme:</b> <code>{last_online(from_user)}</code>\n\n"
     )
 
     if message.chat.type in ["supergroup", "channel"]:
