@@ -10,7 +10,7 @@ class Translation(object):
     START_TEXT = """
  **🙋🏻‍♀️ Merhaba {}**
 **👀 Benim İsmim [{}](https://t.me/{})   
-🇦🇿 Ben Türk dilinde çok fonksiyonlu bir telegram botuyum.  
+🇹🇷 Ben Türk dilinde çok fonksiyonlu bir telegram botuyum.  
 💁🏻‍♀️ Becerilerimi görmek için ardım düğmesine dokunun**   
 
 """    
@@ -39,7 +39,7 @@ class Translation(object):
 
 ➻ **🙋🏻‍♀️ Merhaba {}**
 
-➻ **👸🏻 [{}](https://t.me/{}) 🇦🇿 Türk dilinde çok fonsiyonlu botdur...**
+➻ **👸🏻 [{}](https://t.me/{}) 🇹🇷 Türk dilinde çok fonsiyonlu botdur...**
 
 ➻ ✨ Bot Versiyonu: v0.7.0
 ➻ 🍀 Pyrogram Versiyonu: 1.4.16
