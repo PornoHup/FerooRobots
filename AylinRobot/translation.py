@@ -8,29 +8,27 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
- **🙋🏻‍♀️ Salam {}**
-**👀 Mənim Adım [{}](https://t.me/{})   
-🇦🇿 Azərbaycan dilində çox funksiyalı telegram botuyam.  
-💁🏻‍♀️ Bacarıqlarımı görmək üçün Bot Əmrlərinə daxil olun.**  
- 
-**sᴀʜiʙiᴍ : @The_ferid**   
+ **🙋🏻‍♀️ Merhaba {}**
+**👀 Benim İsmim [{}](https://t.me/{})   
+🇦🇿 Ben Türk dilinde çok fonksiyonlu bir telegram botuyum.  
+💁🏻‍♀️ Becerilerimi görmek için ardım düğmesine dokunun**   
 
 """    
     HELP_TEXT = """
- **🙋🏻‍♀️ Salam {}** 
+ **🙋🏻‍♀️ Merhaba {}** 
 
- **💁🏻‍♀️ ️️️️️️ [{}](https://t.me/{})- Un  
- 📚 Əmrləri  Bunlardır Aşağıdakı 
- Buttonlara Toxunaraq istədiyiniz
- ✔️ Əmr Haqqında Məlumat Ala Bilərsiniz** 
+ **💁🏻‍♀️ ️️️️️️ [{}](https://t.me/{})- in  
+ 📚 Yardım Komutları Bunlardır 
+İstediğiniz Butonlara Dokunarak
+ ✔️yardım ve bilgi alabilirsiniz** 
 """
 
     GSTART_TEXT = """
- **🙋🏻‍♀️ Salam {}**
+ **🙋🏻‍♀️ Merhaba {}**
 
  **💁🏻‍♀️ ️️️️️️ [{}](https://t.me/{})
 
- ❤️‍🔥 {}  Qrupun Da Super İşləyirəm 🥳**
+ ❤️‍🔥 {}  Ben de grupta harika çalışıyorum  **
 """
 
 
@@ -39,76 +37,76 @@ class Translation(object):
 
     BH_TEXT = """
 
-➻ **🙋🏻‍♀️ Salam {}**
+➻ **🙋🏻‍♀️ Merhaba {}**
 
-➻ **👸🏻 [{}](https://t.me/{}) 🇦🇿 Azərbaycan Dilində Çox Özəllikli Telegram Botudur...**
+➻ **👸🏻 [{}](https://t.me/{}) 🇦🇿 Türk dilinde çok fonsiyonlu botdur...**
 
-➻ ✨ Bot Versiyası: v0.7.0
-➻ 🍀 Pyrogram Versiyası: 1.4.16
-➻ ✨ Python Versiyası: 3.11.1
-➻ ⚙️ Server [Heroku](https://heroku.com)
-➻ 📆 Botun İstifadəyə Verilmə Tarixi `20.11.2022` 
+➻ ✨ Bot Versiyonu: v0.7.0
+➻ 🍀 Pyrogram Versiyonu: 1.4.16
+➻ ✨ Python Versiyonu: 3.11.1
+➻ ⚙️ Sunucu [Heroku](https://heroku.com)
+➻ 📆 Bot Kullanıma verilen Tarihi `20.11.2022` 
 
 ╔═════════════════
-║ **⚠️ Qeyd Botun Qrupunuzda İşləməsi 
-║➻ Üçün Admin Əmirlərindən Sadəcə 
-║➻ 💬 Mesajları Silmə 🚫 Yetkisi Verin**
+║ **⚠️ Dikkat botun çalışması 
+║➻ yönetici yetkilerinden sadece 
+║➻ 💬 Mesajları Silme 🚫 Yetkisi Verin**
 ╚═════════════════
 """
 
 
     SAHIB_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /stats
-║▻ 📃 Açıqlama: Bot haqqında ümumi məlumat verər.
+║▻ 🔮 Kullanım: /stats
+║▻ 📃 Açıklama: Bot hakkında genel bilgi sağlar.
 ║
-║▻ 🔮 Istifadə: /block
-║▻ 📃 Açıqlama: İstifadəçini Və Ya Qrupu Bloklayar.
+║▻ 🔮 Kullanım: /block
+║▻ 📃 Açıklama: Kullanıcıyı Veya Grubu Engeller.
 ║
-║▻ 🔮 Istifadə: /unblock
-║▻ 📃 Açıqlama: Bloku Açar.
+║▻ 🔮 Kullanım: /unblock
+║▻ 📃 Açıklama: Engellemeyi Kaldırır
 ║
-║▻ 🔮 Istifadə: /blocklist
-║▻ 📃 Açıqlama: Blok olunanların siyahısını göstərər.
+║▻ 🔮 Kullanım: /blocklist
+║▻ 📃 Açıklama: Engellenenlerin listesini gösterir.
 ║
-║▻ 🔮 Istifadə: /broadcastall
-║▻ 📃 Açıqlama: Qrupa Və Şəxsiyə Yayım Edər.
+║▻ 🔮 Kullanım: /broadcastall
+║▻ 📃 Açıklama: Gruba ve Özele reklam yayın yapar.
 ║
-║▻ 🔮 Istifadə: /gcast
-║▻ 📃 Açıqlama: Qruplarda yayım edər.
+║▻ 🔮 Kullanım: /gcast
+║▻ 📃 Açıklama: Grublara reklam yayını yapar.
 ║
-║▻ 🔮 Istifadə: /broadcast_pin
-║▻ 📃 Açıqlama: Qruplarda yayım edər və pinləyər.
+║▻ 🔮 Kullanım: /broadcast_pin
+║▻ 📃 Açıklama: Grublara reklam yayınlar ve sabitleyer.
 ║
-║▻ 🔮 Istifadə: /dyno
-║▻ 📃 Açıqlama: Heroku Dyno Miqdarını Ölçər.
+║▻ 🔮 Kullanım: /dyno
+║▻ 📃 Açıklama: Heroku Dyno Tutarını Ölçür.
 ║
-║▻ 🔮 Istifadə: /pin
-║▻ 📃 Açıqlama:  Yanıtlanan Mesajı Pinləyər.
+║▻ 🔮 Kullanım: /pin
+║▻ 📃 Açıklama:  Yanıtlanan Mesajı sabitleyir.
 ╚═════════════════
 """
 
     MUSIC_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /song 
-║▻ 🧩 Nümunə: /song Rei - Ah Canım Sevgilim
-║▻ 📃 Açıqlama: Musiqi yükləyir.
+║▻ 🔮 Kullanım: /song 
+║▻ 🧩 Örnek: /song Rei - Ah Canım Sevgilim
+║▻ 📃 Açıklama: Muzik indirir.
 ║
-║▻ 🔮 Istifadə: /video
-║▻ 🧩  Nümunə:/video Rei - Ah Canım Sevgilim
-║▻ 📃 Açıqlama: Video yükləyir.
+║▻ 🔮 Kullanım: /video
+║▻ 🧩 Örnek: /video Rei - Ah Canım Sevgilim
+║▻ 📃 Açıklama: Video indirir.
 ║
-║▻ 🔮 Istifadə: /lyrics 
-║▻ 🧩 Nümunə: /lyrics Rei - Ah Canım Sevgilim
+║▻ 🔮 Kullanım: /lyrics 
+║▻ 🧩 Örnek: /lyrics Rei - Ah Canım Sevgilim
 ║
-║▻ 📃 Açıqlama: Musiqinin sözlərini tapır.
+║▻ 📃 Açıklama: Muzik sözlerini arar.
 ╚═════════════════
 """
 
     TELEGRAPH_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /tgm
-║▻ 📃 Açıqlama: Şəkil, video və ya GIF göndərərək link ala bilərsiniz.
+║▻ 🔮 Kullanım: /tgm
+║▻ 📃 Açıklama: Fotoğraf, Video veya GIF göndererek bağlantı alabilirsiniz.
 ╚═════════════════
 """
 
@@ -126,128 +124,85 @@ class Translation(object):
 """ 
     OYUN_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /zer
-║▻ 📃 Açıqlama: zər atar
+║▻ 🔮 Kullanım: /zer
+║▻ 📃 Açıklama: zar atar
 ║
-║▻ 🔮 Istifadə: /top
-║▻ 📃 Açıqlama: top atar
+║▻ 🔮 Kullanım: /top
+║▻ 📃 Açıklama: top atar
 ║
-║▻ 🔮 Istifadə: /bowling
-║▻ 📃 Açıqlama: bowling atar
+║▻ 🔮 Kullanım: /bowling
+║▻ 📃 Açıklama: bowling atar
 ║
-║▻ 🔮 Istifadə: /ox
-║▻ 📃 Açıqlama: ox atar
+║▻ 🔮 Kullanım: /ox
+║▻ 📃 Açıklama: yay atar
 ║
-║▻ 🔮 Istifadə: /jackpot
-║▻ 📃 Açıqlama: jackpot atar
+║▻ 🔮 Kullanım: /jackpot
+║▻ 📃 Açıklama: jackpot atar
 ║
-║▻ 🔮 Istifadə: /basket
-║▻ 📃 Açıqlama: basket atar
-╚═════════════════
-
-╔═════════════════
-║▻🆕️  SÖZ-OYUNU Nunun Əsas Əmrləri
-║
-║▻ 🔮 Istifadə: /game
-║▻ 📃 Açıqlama: Oyunu Başladar
-║
-║▻ 🔮 Istifadə: /kec
-║▻ 📃 Açıqlama: Çətin Sözü Keçər
-║
-║▻ 🔮 Istifadə: /stop
-║▻ 📃 Açıqlama: Mövcud Oyunu Saxlayar
-║
-║▻ 🔮 Istifadə: /skor
-║▻ 📃 Nümunə: Hər Bir Oyunçunun Reytinqi Göstərər
+║▻ 🔮 Kullanım: /basket
+║▻ 📃 Açıklama: basket atar
 ╚═════════════════
 """
 
     EYLENCE_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /soxri 
-║▻ 📃 Açıqlama: Rondom 16+ Şəkillər Atar.
+║▻ 🔮 Kullanım: /soxri 
+║▻ 📃 Açıklama: Random 16+ Fotoğrafı Atar.
 ║
-║▻ 🔮 Istifadə: /pisik
-║▻ 📃 Açıqlama: Rondom Pişik Şəkili Atar
+║▻ 🔮 Kullanım: /anime
+║▻ 📃 Açıklama: Random Anime Fotoğrafı Atar
 ║
-║▻ 🔮 Istifadə: /anime
-║▻ 📃 Açıqlama: Rondom Anime Şəkili Atar
+║▻ 🔮 Kullanım: /tema
+║▻ 📃 Açıklama: Random Telegram Teması Atar
 ║
-║▻ 🔮 Istifadə: /masin
-║▻ 📃 Açıqlama: Rondom Maşın Şəkili Atar
-║
-║▻ 🔮 Istifadə: /masin2
-║▻ 📃 Açıqlama: Rondom Maşın Videosu Atar
-║
-║▻ 🔮 Istifadə: /tema
-║▻ 📃 Açıqlama: Rondom Telegram Teması Atar
-║
-║▻ 🔮 Istifadə: /pp
-║▻ 📃 Açıqlama: Rondom Profil Şəkili Atar
-║
-║▻ 🔮 Istifadə: /sevgi
-║▻ 📃 Açıqlama: Hazır Sevgi Yə Aid Sözlər Atar.
-║
-║▻ 🔮 Istifadə: /bio
-║▻ 📃 Açıqlama: Hazır Bio Nuz Üçün Sözlər Atar.
-║
-║▻ 🔮 Istifadə: /chatbot on ya off
-║▻ 📃 Açıqlama: qrupunuzda chatbot başladar .
-║
-║▻ 🔮 Istifadə: /esq
-║▻ 📃 Açıqlama: Birinə Yanıt Verərək Sevgi Faizini Ölçən.
+║▻ 🔮 Kullanım: /pp
+║▻ 📃 Açıklama: Random Profil Fotoğrafı Atar
 ╚═════════════════
 """
 
 
     ELAVELER_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /carbon
-║▻ 📃 Açıqlama: Yazdığınız mesajı şəkilə çevirin
+║▻ 🔮 Kullanım: /id
+║▻ 📃 Açıklama: Kullanıcının kimliğini alın.
 ║
-║▻ 🔮 Istifadə: /id
-║▻ 📃 Açıqlama: İstifadəçinin ID alın.
+║▻ 🔮 Kullanım: /info
+║▻ 📃 Açıklama: Kullanıcı hakkında bilgi sağlar
 ║
-║▻ 🔮 Istifadə: /info
-║▻ 📃 Açıqlama: İstifadəçi haqqında məlumat verər
-║
-║▻ 🔮 Istifadə: /alive
-║▻ 📃 Açıqlama: Botun işlək olduğunu yoxlayar.
+║▻ 🔮 Kullanım: /alive
+║▻ 📃 Açıklama: Botun aktif olduğunu bildirir.
 ╚═════════════════
 """
 
 
     AXTARIS_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /github 
-║▻ 🧩 Nümunə: /github HesenovHuseyn
-║▻ 📃 Açıqlama: Github Axtarışı Edər.
+║▻ 🔮 Kullanım: /github 
+║▻ 🧩 Örnek: /github Python
+║▻ 📃 Açıklama: Github Araması Yapar.
 ║
-║▻ 🔮 Istifadə: /search
-║▻ 🧩 Nümunə: /search Rei - Ah Canım Sevgilim
-║▻ 📃 Açıqlama: YouTube axtarış üçün istifadə edə bilərsiniz.
+║▻ 🔮 Kullanım: /search
+║▻ 🧩 Örnek: /search Rei - Ah Canım Sevgilim
+║▻ 📃 Açıklama: YouTube link arar.
 ╚═════════════════
 """
 
     TAGGER_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /tag
-║▻ 📃  Açıqlama: [Səbəb] - 5 - Li Tağ.
+║▻ 🔮 Kullanım: /tag
+║▻ 📃  Açıklama: [Sebep] - 5 - Li etiket.
 ║
-║▻ 🔮 Istifadə: /ttag
-║▻ 📃  Açıqlama: [Səbıb] - Təkli Tağ.
+║▻ 🔮 Kullanım: /ttag
+║▻ 📃  Açıklama: [Sebep] - Tekli etiket.
 ║
-║▻ 🔮 Istifadə: /stag
-║▻ 📃  Açıqlama: Maraqlı Sözlərlə Tağ.
+║▻ 🔮 Kullanım: /etag
+║▻ 📃  Açıklama: [Sebep] - Emoji ile etiket.
 ║
-║▻ 🔮 Istifadə: /etag
-║▻ 📃  Açıqlama: [Səbəb] - Emoji İlə Tağ.
+║▻ 🔮 Kullanım: /btag
+║▻ 📃  Açıklama: [Sebep] - Bayraklarla etiket.
 ║
-║▻ 🔮 Istifadə: /btag
-║▻ 📃  Açıqlama: [Səbəb] - Bayraqlarla Tağ
-║
-║▻ 🔮 Istifadə: /admin
-║▻ 📃 Açıqlama: Adminlərin Toplu Siyahısı
+║▻ 🔮 Kullanım: /admin
+║▻ 📃 Açıklama: Grub Yöneticilerin listesi.
 ╚═════════════════
 """
 
