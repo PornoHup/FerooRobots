@@ -23,20 +23,20 @@ async def lyrics(_, message: Message):
     m = await message.delete()  
     if len(message.command) < 2:
         return await message.reply_text("**İstifadə:**\n\n/lyrics [ Musiqi Adı]")
-    m = await message.reply_text("✍️ Mahnı sözləri axtarılır")
+    m = await message.reply_text("✍️ Muzik sözleri axtarılır")
     query = message.text.split(None, 1)[1]
     x = "OXaVabSRKQLqwpiYOn-E4Y7k3wj-TNdL5RfDPXlnXhCErbcqVvdCF-WnMR5TBctI"
     y = lyricsgenius.Genius(x)
     y.verbose = False
     S = y.search_song(query, get_full_info=False)
     if S is None:
-        return await m.edit("Mahnı sözləri tapılmadı: 🥹")
+        return await m.edit("Muzik sözleri bulunamadı: 🥹")
     xxx = f"""
-**🙋‍♀️ Yüklədi {Config.BOT_USERNAME}**
-**🎶 Axtarılan Mahnı:-** __{query}__
- **📖 Tapılmış Mahnı Sözləri:-** __{S.title}__
- **✍️ Rəssam:-** {S.artist}
- **📄 __Mahnı sözləri:__**
+**🙋‍♀️ Yükleyen {Config.BOT_USERNAME}**
+**🎶 Aranan Muzik:-** __{query}__
+ **📖 Bulunan Muzik Sözleri:-** __{S.title}__
+ **✍️ Sanatçı:-** {S.artist}
+ **📄 __Muzik sözleri:__**
 
 {S.lyrics}"""
     if len(xxx) > 4096:
