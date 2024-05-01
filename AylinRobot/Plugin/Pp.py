@@ -16,9 +16,9 @@ photolist = ["https://telegra.ph/file/cfd7fd0a4cac1ef83dd34.jpg","https://telegr
 @app.on_message(filters.command(["pp"]))
 async def pp(bot: app, m: Message):
     start = time()
-    replymsg = await m.reply_text("**❤ Rondom Profil Şəkili Seçilir...**")
+    replymsg = await m.reply_text("**❤ Random Profil Fotoğrafı Seçiliyor...**")
     end = round(time() - start, 2)
     photo = random.choice(photolist)
-    text = f"❤️ **{Config.BOT_USERNAME} Sizin Üçün Profil Şəkili Seçdi**"
+    text = f"❤️ **{Config.BOT_USERNAME} Sizin için Profil Fotoğrafı Seçdi**"
     await bot.send_photo(m.chat.id, photo=photo, caption=text)
     await replymsg.delete()
